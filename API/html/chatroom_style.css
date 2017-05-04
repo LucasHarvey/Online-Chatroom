@@ -1,0 +1,80 @@
+.error {
+  color: #FF0000;
+  font-family: sans-serif;
+}
+.title {
+  color: #0080ff;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.chatroom-title{
+  color: #0080ff;
+  font-family: sans-serif;
+
+}
+
+  .right {
+    text-align: right;
+    float: right;
+}
+
+.general {
+  color: #0080ff;
+  font-family: verdana, sans-serif;
+}
+
+.home{
+  font-family: verdana, sans-serif;
+	width:500px;
+	height:200px;
+	position:absolute;
+	left:50%;
+	margin:0px 0 0 -250px;
+}
+.button {
+  color: white;
+  background-color: #0080ff;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.chatbox{
+  font-family: verdana, sans-serif; 
+  width: 265px; 
+  height: 600px; 
+  resize: none; 
+  overflow-y: scroll;
+  border:1px solid black;
+}
+
+#parent{
+  position: absolute;
+  width: 900px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -450px;
+}
+
+#subparent{
+  margin-left: 120px;
+}
+
+label{
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 250px;
+  text-align: right;
+}
+input {
+  display: inline-block;
+  float: left;
+}
+button {
+  display: inline-block;
+  float: left;
+}
